@@ -1,0 +1,25 @@
+{
+  "name": "mytailwindproject",
+  "version": "1.0.0",
+  "description": "Code Snippets",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-hash/mytailwindproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-hash/mytailwindproject/issues"
+  },
+  "homepage": "https://github.com/alex-hash/mytailwindproject#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.1.4"
+  }
+}
